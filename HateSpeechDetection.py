@@ -43,7 +43,7 @@ clf.score(X_test, y_test)
 
 def hate_speech_detection():
     import streamlit as st
-    st.title("Hate Speech etection")
+    st.title("Hate Speech Detection")
     user = st.text_area("Enter any tweet: ")
     if len(user) < 1:
         st.write(" ")
